@@ -31,6 +31,7 @@ const FROM_PASS = process.env.ZOHO_MAIL_PASSWORD || ''
 const ADMIN_EMAILS = [
   'ponrajacc@gmail.com',
   'gunatamil123@gmail.com',
+  'learning@faceprep.in'
 ]
 
 // ── SMTP Transporter ────────────────────────────────────────────────────────
