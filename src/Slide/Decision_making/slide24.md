@@ -21,15 +21,15 @@ transition: slide-up
 </div>
 
 <div class="flex-col" style="gap:10px;">
-<div v-click style="background:#1a1f36;border-radius:10px;padding:14px 18px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:1.9;">
-    <span style="color:#61dafb;">day</span> = <span style="color:#f1fa8c;">"Saturday"</span><br><br>
-    <span style="color:#ffd166;">match</span> <span style="color:#61dafb;">day</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#f1fa8c;">"Saturday"</span> <span style="color:#ff9900;">|</span> <span style="color:#f1fa8c;">"Sunday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"🎉 It's the weekend!"</span>)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#f1fa8c;">"Monday"</span> <span style="color:#ff9900;">|</span> <span style="color:#f1fa8c;">"Friday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"📅 Start/end of week"</span>)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#ff9900;">_</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"💼 Regular weekday"</span>)
+<div v-click style="background:#f7f8fc;border:1px solid #e2e6f0;border-radius:10px;padding:14px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:1.9;color:#1e293b;">
+    <span style="color:#0e6ead;">day</span> = <span style="color:#2d7a00;">"Saturday"</span><br><br>
+    <span style="color:#c2410c;">match</span> <span style="color:#0e6ead;">day</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#2d7a00;">"Saturday"</span> <span style="color:#b45309;">|</span> <span style="color:#2d7a00;">"Sunday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"🎉 It's the weekend!"</span>)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#2d7a00;">"Monday"</span> <span style="color:#b45309;">|</span> <span style="color:#2d7a00;">"Friday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"📅 Start/end of week"</span>)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#b45309;">_</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"💼 Regular weekday"</span>)
   </div>
 
   <div v-click class="output-box">

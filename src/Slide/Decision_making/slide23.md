@@ -14,32 +14,32 @@ transition: slide-up
 
 <div class="flex-col" style="gap:8px;">
   <div class="pill pill-red" style="margin-bottom:4px;border: 1px solid #bc2f41ff;">if-elif-else Approach</div>
-  <div v-click style="background:#1a1f36;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.85;">
-    <span style="color:#61dafb;">day</span> = <span style="color:#f1fa8c;">"Monday"</span><br><br>
-    <span style="color:#ff79c6;">if</span>   <span style="color:#61dafb;">day</span> == <span style="color:#f1fa8c;">"Monday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Start of work week"</span>)<br>
-    <span style="color:#61dafb;">elif</span> <span style="color:#61dafb;">day</span> == <span style="color:#f1fa8c;">"Friday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Weekend soon!"</span>)<br>
-    <span style="color:#61dafb;">elif</span> <span style="color:#61dafb;">day</span> == <span style="color:#f1fa8c;">"Sunday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Rest day"</span>)<br>
-    <span style="color:#ffd166;">else</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Weekday"</span>)
+  <div v-click style="background:#f7f8fc;border:1px solid #e2e6f0;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.85;color:#1e293b;">
+    <span style="color:#0e6ead;">day</span> = <span style="color:#2d7a00;">"Monday"</span><br><br>
+    <span style="color:#c2410c;">if</span>   <span style="color:#0e6ead;">day</span> == <span style="color:#2d7a00;">"Monday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Start of work week"</span>)<br>
+    <span style="color:#c2410c;">elif</span> <span style="color:#0e6ead;">day</span> == <span style="color:#2d7a00;">"Friday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Weekend soon!"</span>)<br>
+    <span style="color:#c2410c;">elif</span> <span style="color:#0e6ead;">day</span> == <span style="color:#2d7a00;">"Sunday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Rest day"</span>)<br>
+    <span style="color:#c2410c;">else</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Weekday"</span>)
   </div>
 </div>
 
 <div class="flex-col" style="gap:8px;">
   <div  class="pill pill-green" style="margin-bottom:4px; border: 1px solid #168b53ff;">match-case Approach</div>
-  <div v-click style="background:#1a1f36;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.85;">
-    <span style="color:#61dafb;">day</span> = <span style="color:#f1fa8c;">"Monday"</span><br><br>
-    <span style="color:#ffd166;">match</span> <span style="color:#61dafb;">day</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#f1fa8c;">"Monday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Start of work week"</span>)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#f1fa8c;">"Friday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Weekend soon!"</span>)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#f1fa8c;">"Sunday"</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Rest day"</span>)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#ff9900;">_</span>:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">print</span>(<span style="color:#f1fa8c;">"Weekday"</span>)
+  <div v-click style="background:#f7f8fc;border:1px solid #e2e6f0;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.85;color:#1e293b;">
+    <span style="color:#0e6ead;">day</span> = <span style="color:#2d7a00;">"Monday"</span><br><br>
+    <span style="color:#c2410c;">match</span> <span style="color:#0e6ead;">day</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#2d7a00;">"Monday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Start of work week"</span>)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#2d7a00;">"Friday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Weekend soon!"</span>)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#2d7a00;">"Sunday"</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Rest day"</span>)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#c2410c;">case</span> <span style="color:#b45309;">_</span>:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#0f766e;">print</span>(<span style="color:#2d7a00;">"Weekday"</span>)
   </div>
 </div>
 
