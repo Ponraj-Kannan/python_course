@@ -359,6 +359,7 @@ async function handleLogout() {
 
 .fp-info-popover-path {
   font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-variant-ligatures: none;
   font-size: 0.72rem;
   word-break: break-all;
   line-height: 1.6;
