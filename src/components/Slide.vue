@@ -206,6 +206,7 @@ defineProps({
   padding: 8px 10px;
   overflow-x: auto;
   font-family: 'Fira Code', 'Cascadia Code', monospace;
+  font-variant-ligatures: none;
   font-size: 0.8rem;
   line-height: 1.5;
   color: #e2e8f0;
