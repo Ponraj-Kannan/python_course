@@ -31,7 +31,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Code Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"  hello, world!  "</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.upper())        <span style="color:#6b7280;"># "  HELLO, WORLD!  "</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.lower())        <span style="color:#6b7280;"># "  hello, world!  "</span><br>
@@ -43,7 +43,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Chaining Methods</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Clean user input: strip spaces + lowercase</span><br>
     <span style="color:#0e6ead;">user_input</span> = <span style="color:#2d7a00;">"  ALICE  "</span><br>
     <span style="color:#0e6ead;">clean</span> = <span style="color:#0e6ead;">user_input</span>.strip().lower()<br>

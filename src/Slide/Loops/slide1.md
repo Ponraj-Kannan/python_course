@@ -47,7 +47,7 @@ fonts:
 <div class="flex-col">
   <div v-click class="slide-h3" style="margin-bottom:8px;">Without Loop vs With Loop</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.8;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.8;">
     <div style="color:#6b7280;margin-bottom:4px;"># Without loop — repetitive!</div>
     <div><span style="color:#2d7a00;">print</span>(<span style="color:#b45309;">1</span>)</div>
     <div><span style="color:#2d7a00;">print</span>(<span style="color:#b45309;">2</span>)</div>

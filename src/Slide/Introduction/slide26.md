@@ -25,7 +25,7 @@ transition: slide-up
     <div><strong>Why it matters:</strong> You can add two numbers, but not a number and a word. Data types enforce this — they prevent nonsense operations.</div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#6b7280;"># Python knows the type automatically</span><br>
     <span style="color:#0e6ead;">x</span> = <span style="color:#b45309;">10</span>          <span style="color:#6b7280;"># int</span><br>
     <span style="color:#0e6ead;">y</span> = <span style="color:#b45309;">3.14</span>       <span style="color:#6b7280;"># float</span><br>

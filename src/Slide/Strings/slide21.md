@@ -9,7 +9,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Username Validator</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">username</span> = <span style="color:#ef5050;">input</span>(<span style="color:#2d7a00;">"Enter username: "</span>).strip()<br><br>
     <span style="color:#ef5050;">if</span> <span style="color:#ef5050;">len</span>(<span style="color:#0e6ead;">username</span>) < <span style="color:#b45309;">3</span>:<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Too short (min 3 chars)"</span>)</span>
@@ -20,7 +20,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Password Strength Checker</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">pwd</span> = <span style="color:#ef5050;">input</span>(<span style="color:#2d7a00;">"Password: "</span>)<br>
     <span style="color:#0e6ead;">has_upper</span> = <span style="color:#ef5050;">any</span>(<span style="color:#0e6ead;">c</span>.isupper() <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">c</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">pwd</span>)<br>
     <span style="color:#0e6ead;">has_digit</span> = <span style="color:#ef5050;">any</span>(<span style="color:#0e6ead;">c</span>.isdigit() <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">c</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">pwd</span>)<br>
@@ -35,7 +35,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Email Parser</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">email</span> = <span style="color:#2d7a00;">"alice.smith@gmail.com"</span><br><br>
     <span style="color:#6b7280;"># Validate it's an email</span><br>
     <span style="color:#ef5050;">if</span> <span style="color:#2d7a00;">"@"</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">email</span> <span style="color:#ef5050;">and</span> <span style="color:#0e6ead;">email</span>.endswith(<span style="color:#2d7a00;">".com"</span>):<br>

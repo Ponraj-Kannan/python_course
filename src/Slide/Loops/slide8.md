@@ -16,7 +16,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Iterating Through a List</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.75rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;line-height:1.9;">
     <span style="color:#6b7280;"># Loop through a list</span><br>
     <span style="color:#0e6ead;">fruits</span> = [<span style="color:#2d7a00;">"apple"</span>, <span style="color:#2d7a00;">"banana"</span>, <span style="color:#2d7a00;">"cherry"</span>]<br>
     <br>
@@ -47,7 +47,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">range() Function</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># range(stop) — 0 to stop-1</span><br>
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">i</span> <span style="color:#ef5050;">in</span> <span style="color:#2d7a00;">range</span>(<span style="color:#b45309;">5</span>):<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">i</span>)</span>
@@ -61,13 +61,13 @@ transition: slide-up
   <div style="margin-top:6px;">
     <div v-click class="section-label" style="margin-bottom:6px;">range() Sequence Visualization</div>
     <div v-after style="background:#f7f8fc;border-radius:8px;padding:8px 12px;border:1px solid var(--border);">
-      <div style="font-size:.65rem;color:var(--muted);margin-bottom:4px;font-family:'Fira Code',monospace;">range(1, 6) generates:</div>
+      <div style="font-size:.65rem;color:var(--muted);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">range(1, 6) generates:</div>
       <div style="display:flex;gap:6px;">
-        <div v-click style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.8rem;font-weight:700;color:var(--red-dark);">1</div>
-        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.8rem;font-weight:700;color:var(--red-dark);">2</div>
-        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.8rem;font-weight:700;color:var(--red-dark);">3</div>
-        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.8rem;font-weight:700;color:var(--red-dark);">4</div>
-        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.8rem;font-weight:700;color:var(--red-dark);">5</div>
+        <div v-click style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.8rem;font-weight:700;color:var(--red-dark);">1</div>
+        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.8rem;font-weight:700;color:var(--red-dark);">2</div>
+        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.8rem;font-weight:700;color:var(--red-dark);">3</div>
+        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.8rem;font-weight:700;color:var(--red-dark);">4</div>
+        <div v-after style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.8rem;font-weight:700;color:var(--red-dark);">5</div>
         <div v-after style="background:#e2e8f0;border-radius:8px;padding:6px 12px;font-size:.7rem;font-weight:700;color:var(--muted)">stop</div>
       </div>
     </div>

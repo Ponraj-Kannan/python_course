@@ -16,7 +16,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Syntax &amp; Example</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Outer loop</span><br>
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">i</span> <span style="color:#ef5050;">in</span> <span style="color:#2d7a00;">range</span>(<span style="color:#b45309;">1</span>, <span style="color:#b45309;">4</span>):<br>
     <span style="padding-left:20px;display:block;color:#6b7280;"># Inner loop</span>
@@ -52,7 +52,7 @@ transition: slide-up
     </table>
   </div>
     <!-- <div v-click class="small-text" style="margin-top:10px;"><strong>Pattern: Star Triangle</strong></div>
-    <div v-after style="background:#f6f8fa;border-radius:6px;border:1px solid #e1e4e8;padding:8px 12px;margin-top:6px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.8;">
+    <div v-after style="background:#f6f8fa;border-radius:6px;border:1px solid #e1e4e8;padding:8px 12px;margin-top:6px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.8;">
       <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">i</span> <span style="color:#ef5050;">in</span> <span style="color:#2d7a00;">range</span>(<span style="color:#b45309;">1</span>, <span style="color:#b45309;">5</span>):<br>
       <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"* "</span> * <span style="color:#0e6ead;">i</span>)</span>
       <div style="color:#2d7a00;margin-top:6px;">*<br>* *<br>* * *<br>* * * *</div>

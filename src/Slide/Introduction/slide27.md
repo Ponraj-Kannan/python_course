@@ -22,7 +22,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:4px;">Syntax &amp; Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#0e6ead;">age</span>       = <span style="color:#b45309;">25</span><br>
     <span style="color:#0e6ead;">population</span> = <span style="color:#b45309;">1400000000</span><br>
     <span style="color:#0e6ead;">temp</span>       = <span style="color:#b45309;">-10</span><br>
@@ -31,7 +31,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:4px;">Operations</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#b45309;">10</span> + <span style="color:#b45309;">3</span>  = <span style="color:#2d7a00;">13</span> &nbsp;&nbsp;
     <span style="color:#b45309;">10</span> - <span style="color:#b45309;">3</span>  = <span style="color:#2d7a00;">7</span><br>
     <span style="color:#b45309;">10</span> * <span style="color:#b45309;">3</span>  = <span style="color:#2d7a00;">30</span> &nbsp;&nbsp;

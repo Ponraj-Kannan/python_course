@@ -14,7 +14,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Positive Indexing</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Python"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">0</span>])  <span style="color:#6b7280;"># P  ← first character</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">1</span>])  <span style="color:#6b7280;"># y</span><br>
@@ -23,7 +23,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Negative Indexing</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Python"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">-1</span>]) <span style="color:#6b7280;"># n  ← last character</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">-2</span>]) <span style="color:#6b7280;"># o</span><br>
@@ -52,7 +52,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Real-World Example</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Get first and last character of username</span><br>
     <span style="color:#0e6ead;">username</span> = <span style="color:#2d7a00;">"alice2024"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"First:"</span>, <span style="color:#0e6ead;">username</span>[<span style="color:#b45309;">0</span>])   <span style="color:#6b7280;"># a</span><br>

@@ -15,7 +15,7 @@ transition: slide-up
 <div class="flex-col" style="gap:12px;">
   <div class="slide-h3" v-click>Syntax Breakdown</div>
 
-  <div v-after style="background:#1a1f36;border-radius:10px;padding:14px 18px;font-family:'Fira Code',monospace;font-size:.82rem;line-height:2;">
+  <div v-after style="background:#1a1f36;border-radius:10px;padding:14px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.82rem;line-height:2;">
     <span style="color:#ff79c6;">if</span> <span style="color:#61dafb;">condition</span><span style="color:#f1fa8c;">:</span><br>
     <span style="color:#636e80;">&nbsp;&nbsp;&nbsp;&nbsp;# indented block</span><br>
     <span style="color:#a8ff78;">&nbsp;&nbsp;&nbsp;&nbsp;statement_1</span><br>

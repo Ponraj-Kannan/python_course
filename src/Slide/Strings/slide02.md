@@ -15,16 +15,16 @@
 
   <div style="display:flex;flex-direction:column;gap:6px;margin-top:4px;">
     <div class="card-green" style="border-radius:8px;padding:10px 14px;" v-click >
-      <div style="font-size:.72rem;font-weight:600;color:var(--green);margin-bottom:4px;font-family:'Fira Code',monospace;">Single Quotes &nbsp; ' '</div>
-      <div style="font-size:.72rem;color:var(--slate);font-family:'Fira Code',monospace;">s = <span style="color:#2d7a00;">'Hello'</span></div>
+      <div style="font-size:.72rem;font-weight:600;color:var(--green);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">Single Quotes &nbsp; ' '</div>
+      <div style="font-size:.72rem;color:var(--slate);font-family:'Fira Code',monospace;font-variant-ligatures:none;">s = <span style="color:#2d7a00;">'Hello'</span></div>
     </div>
     <div class="card-blue" style="border-radius:8px;padding:10px 14px;" v-click >
-      <div style="font-size:.72rem;font-weight:600;color:var(--blue);margin-bottom:4px;font-family:'Fira Code',monospace;">Double Quotes &nbsp; " "</div>
-      <div style="font-size:.72rem;color:var(--slate);font-family:'Fira Code',monospace;">s = <span style="color:#2d7a00;">"Hello"</span></div>
+      <div style="font-size:.72rem;font-weight:600;color:var(--blue);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">Double Quotes &nbsp; " "</div>
+      <div style="font-size:.72rem;color:var(--slate);font-family:'Fira Code',monospace;font-variant-ligatures:none;">s = <span style="color:#2d7a00;">"Hello"</span></div>
     </div>
     <div class="card-orange" style="border-radius:8px;padding:10px 14px;" v-click >
-      <div style="font-size:.72rem;font-weight:600;color:var(--orange);margin-bottom:4px;font-family:'Fira Code',monospace;">Triple Quotes &nbsp; ''' ''' &nbsp;or&nbsp; """ """</div>
-      <div style="font-size:.72rem;color:var(--slate);font-family:'Fira Code',monospace;">s = <span style="color:#2d7a00;">"""Multi<br>&nbsp;&nbsp;&nbsp;&nbsp;line"""</span></div>
+      <div style="font-size:.72rem;font-weight:600;color:var(--orange);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">Triple Quotes &nbsp; ''' ''' &nbsp;or&nbsp; """ """</div>
+      <div style="font-size:.72rem;color:var(--slate);font-family:'Fira Code',monospace;font-variant-ligatures:none;">s = <span style="color:#2d7a00;">"""Multi<br>&nbsp;&nbsp;&nbsp;&nbsp;line"""</span></div>
     </div>
   </div>
 
@@ -37,7 +37,7 @@
 <div class="flex-col">
   <div v-click class="section-label">When to Use Which</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Use double quotes when string has apostrophe</span><br>
     <span style="color:#0e6ead;">msg</span> = <span style="color:#2d7a00;">"It's a beautiful day"</span><br><br>
     <span style="color:#6b7280;"># Use single quotes when string has double quotes</span><br>

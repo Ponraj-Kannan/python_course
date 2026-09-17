@@ -33,7 +33,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:6px;">How power(2,4) works</div>
-  <div v-after style="font-size:.68rem;font-family:'Fira Code',monospace;line-height:2; margin-bottom:40px;">
+  <div v-after style="font-size:.68rem;font-family:'Fira Code',monospace;font-variant-ligatures:none;line-height:2; margin-bottom:40px;">
     <div><span class="pill pill-blue">power(2,4)</span> = 2 * power(2,3)</div>
     <div style="padding-left:14px;"><span class="pill pill-blue">power(2,3)</span> = 2 * power(2,2)</div>
     <div style="padding-left:28px;"><span class="pill pill-blue">power(2,2)</span> = 2 * power(2,1)</div>
@@ -61,7 +61,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:6px;">Logic Visualization — "ABC"</div>
-  <div v-after style="display:flex;flex-direction:column;gap:3px;font-size:.68rem;font-family:'Fira Code',monospace;">
+  <div v-after style="display:flex;flex-direction:column;gap:3px;font-size:.68rem;font-family:'Fira Code',monospace;font-variant-ligatures:none;">
     <div><span class="pill pill-blue">reverse("ABC")</span> = reverse("BC") + "A"</div>
     <div style="padding-left:14px;"><span class="pill pill-blue">reverse("BC")</span> = reverse("C") + "B"</div>
     <div style="padding-left:28px;"><span class="pill pill-blue">reverse("C")</span> = reverse("") + "C"</div>

@@ -23,11 +23,11 @@ transition: slide-up
 
   <div v-click style="display:flex;flex-direction:column;gap:6px;margin-top:6px;">
     <div class="card-green" style="border-radius:8px;padding:12px 16px;">
-      <div style="font-family:'Fira Code',monospace;font-size:.85rem;font-weight:800;color:var(--green);margin-bottom:4px;">in</div>
+      <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.85rem;font-weight:800;color:var(--green);margin-bottom:4px;">in</div>
       <div style="font-size:.75rem;color:var(--slate);">Returns <span class="mono" style="color:var(--green);">True</span> if the value <strong>is found</strong> in the sequence</div>
     </div>
     <div class="card-red" style="border-radius:8px;padding:12px 16px;">
-      <div style="font-family:'Fira Code',monospace;font-size:.85rem;font-weight:800;color:var(--red-dark);margin-bottom:4px;">not in</div>
+      <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.85rem;font-weight:800;color:var(--red-dark);margin-bottom:4px;">not in</div>
       <div style="font-size:.75rem;color:var(--slate);">Returns <span class="mono" style="color:var(--green);">True</span> if the value <strong>is NOT found</strong> in the sequence</div>
     </div>
   </div>
@@ -41,7 +41,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Code Examples</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># With a list</span><br>
     <span style="color:#0e6ead;">fruits</span> = [<span style="color:#2d7a00;">"apple"</span>, <span style="color:#2d7a00;">"banana"</span>, <span style="color:#2d7a00;">"cherry"</span>]<br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"apple"</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">fruits</span>)      <span style="color:#6b7280;"># True</span><br>
@@ -56,7 +56,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Practical Use in a Loop</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;margin-top:4px;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;margin-top:4px;">
     <span style="color:#0e6ead;">banned</span> = [<span style="color:#2d7a00;">"spam"</span>, <span style="color:#2d7a00;">"hack"</span>]<br>
     <span style="color:#0e6ead;">word</span> = <span style="color:#2d7a00;">"spam"</span><br>
     <span style="color:#ef5050;">if</span> <span style="color:#0e6ead;">word</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">banned</span>:<br>

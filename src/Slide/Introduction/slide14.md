@@ -16,7 +16,7 @@ transition: slide-up
 <div class="flex-col">
 
   <div v-click class="section-label">Assignment Statement</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.82rem;line-height:2.2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.82rem;line-height:2.2;">
     <span style="color:#0e6ead;">score</span> <span style="color:#c49a00;">=</span> <span style="color:#b45309;">42</span>
   </div>
 
@@ -58,12 +58,12 @@ transition: slide-up
   </div>
 
   <div v-click style="display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:8px;">
-    <div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:8px;padding:8px 20px;font-family:'Fira Code',monospace;font-size:.78rem;font-weight:700;color:#2b6cb0;">score</div>
+    <div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:8px;padding:8px 20px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.78rem;font-weight:700;color:#2b6cb0;">score</div>
     <div style="font-size:.65rem;color:var(--muted);">variable name (label)</div>
     <div style="color:var(--muted);font-size:1.2rem;">↓</div>
-    <div style="background:#f0f4ff;border:2px solid var(--navy-mid);border-radius:8px;padding:4px 14px;font-size:.62rem;color:var(--navy-mid);font-family:'Fira Code',monospace;">0x7f3a (memory address)</div>
+    <div style="background:#f0f4ff;border:2px solid var(--navy-mid);border-radius:8px;padding:4px 14px;font-size:.62rem;color:var(--navy-mid);font-family:'Fira Code',monospace;font-variant-ligatures:none;">0x7f3a (memory address)</div>
     <div style="color:var(--muted);font-size:1.2rem;">↓</div>
-    <div style="background:#f0fff4;border:2px solid var(--green);border-radius:8px;padding:8px 20px;font-family:'Fira Code',monospace;font-size:.85rem;font-weight:700;color:var(--green);">42</div>
+    <div style="background:#f0fff4;border:2px solid var(--green);border-radius:8px;padding:8px 20px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.85rem;font-weight:700;color:var(--green);">42</div>
     <div style="font-size:.65rem;color:var(--muted);">actual value (int object)</div>
   </div>
 

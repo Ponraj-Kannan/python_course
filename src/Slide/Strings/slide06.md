@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;margin-top:8px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;margin-top:8px;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Hello, World!"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">0</span>:<span style="color:#b45309;">5</span>])   <span style="color:#6b7280;"># Hello</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">7</span>:<span style="color:#b45309;">12</span>])  <span style="color:#6b7280;"># World</span><br>
@@ -51,7 +51,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Step / Stride Slicing</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"abcdefgh"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">0</span>:<span style="color:#b45309;">8</span>:<span style="color:#b45309;">2</span>])  <span style="color:#6b7280;"># aceg (every 2nd character)</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[::<span style="color:#b45309;">2</span>])     <span style="color:#6b7280;"># aceg</span><br>
@@ -59,7 +59,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Practical Slicing Tricks</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">email</span> = <span style="color:#2d7a00;">"user@example.com"</span><br>
     <span style="color:#6b7280;"># Extract username (before @)</span><br>
     <span style="color:#0e6ead;">at</span> = <span style="color:#0e6ead;">email</span>.find(<span style="color:#2d7a00;">"@"</span>)<br>

@@ -21,7 +21,7 @@ transition: slide-up
     </div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:2;margin-top:4px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:2;margin-top:4px;">
     <span style="color:#0e6ead;">student</span> = {<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">"name"</span>: <span style="color:#2d7a00;">"Alice"</span>,</span>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">"age"</span>:  <span style="color:#b45309;">21</span>,</span>
@@ -33,19 +33,19 @@ transition: slide-up
   <div v-click class="section-label" style="margin-top:4px;">Key-Value Visualization</div>
   <div v-after style="display:flex;flex-direction:column;gap:4px;">
     <div style="display:flex;align-items:center;gap:8px;">
-      <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-size:.72rem;font-weight:700;color:var(--red-dark);min-width:60px;text-align:center;">"name"</div>
+      <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;font-weight:700;color:var(--red-dark);min-width:60px;text-align:center;">"name"</div>
       <div style="color:var(--muted);font-weight:700;">→</div>
-      <div style="background:#f0fff4;border:1px solid var(--green);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-size:.72rem;font-weight:700;color:var(--green);">"Alice"</div>
+      <div style="background:#f0fff4;border:1px solid var(--green);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;font-weight:700;color:var(--green);">"Alice"</div>
     </div>
     <div style="display:flex;align-items:center;gap:8px;">
-      <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-size:.72rem;font-weight:700;color:var(--red-dark);min-width:60px;text-align:center;">"age"</div>
+      <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;font-weight:700;color:var(--red-dark);min-width:60px;text-align:center;">"age"</div>
       <div style="color:var(--muted);font-weight:700;">→</div>
-      <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-size:.72rem;font-weight:700;color:#2b6cb0;">21</div>
+      <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;font-weight:700;color:#2b6cb0;">21</div>
     </div>
     <div style="display:flex;align-items:center;gap:8px;">
-      <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-size:.72rem;font-weight:700;color:var(--red-dark);min-width:60px;text-align:center;">"marks"</div>
+      <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;font-weight:700;color:var(--red-dark);min-width:60px;text-align:center;">"marks"</div>
       <div style="color:var(--muted);font-weight:700;">→</div>
-      <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-size:.72rem;font-weight:700;color:var(--orange);">95.5</div>
+      <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:6px;padding:5px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;font-weight:700;color:var(--orange);">95.5</div>
     </div>
   </div>
 
@@ -54,7 +54,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Common dict Operations</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
     <span style="color:#6b7280;"># Add / update</span><br>
     <span style="color:#0e6ead;">student</span>[<span style="color:#2d7a00;">"grade"</span>] = <span style="color:#2d7a00;">"A"</span><br>
     <span style="color:#6b7280;"># Delete</span><br>

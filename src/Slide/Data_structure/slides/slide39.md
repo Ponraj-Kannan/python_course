@@ -26,7 +26,7 @@
   <div v-click class="section-label">Quick Cheat Sheet</div>
 
   <div v-after class="card-navy" style="border-radius:10px;padding:14px;">
-    <div style="font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.8;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.8;">
       <div>d = {} <span style="color:var(--muted);"># empty</span></div>
       <div>d["key"] = value <span style="color:var(--muted);"># add/update</span></div>
       <div>d.get("key", default) <span style="color:var(--muted);"># safe read</span></div>

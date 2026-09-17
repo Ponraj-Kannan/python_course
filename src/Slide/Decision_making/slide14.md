@@ -21,7 +21,7 @@ transition: slide-up
 
   <div v-click class="card card-orange">
     <div class="slide-h3" style="margin-bottom:6px;">Visual Structure</div>
-    <div style="font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;background:#fff8f0;padding:8px;border-radius:6px;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;background:#fff8f0;padding:8px;border-radius:6px;">
       <span style="color:#dd6b20;">if</span> level_1_condition:<br>
       <span style="background:rgba(221,107,32,.15);display:inline-block;width:95%;padding-left:4px;border-left:3px solid #dd6b20;">
         &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#3182ce;">if</span> level_2_condition:<br>

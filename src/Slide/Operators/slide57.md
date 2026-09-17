@@ -23,11 +23,11 @@ transition: slide-up
 
   <div v-click style="display:flex;flex-direction:column;gap:6px;margin-top:6px;">
     <div class="card-green" style="border-radius:8px;padding:12px 16px;">
-      <div style="font-family:'Fira Code',monospace;font-size:.85rem;font-weight:800;color:var(--green);margin-bottom:4px;">is</div>
+      <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.85rem;font-weight:800;color:var(--green);margin-bottom:4px;">is</div>
       <div style="font-size:.75rem;color:var(--slate);">Returns <span class="mono" style="color:var(--green);">True</span> if both variables refer to the <strong>same object</strong></div>
     </div>
     <div class="card-red" style="border-radius:8px;padding:12px 16px;">
-      <div style="font-family:'Fira Code',monospace;font-size:.85rem;font-weight:800;color:var(--red-dark);margin-bottom:4px;">is not</div>
+      <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.85rem;font-weight:800;color:var(--red-dark);margin-bottom:4px;">is not</div>
       <div style="font-size:.75rem;color:var(--slate);">Returns <span class="mono" style="color:var(--green);">True</span> if both variables refer to <strong>different objects</strong></div>
     </div>
   </div>
@@ -41,7 +41,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Code Examples</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">a</span> = [<span style="color:#b45309;">1</span>, <span style="color:#b45309;">2</span>, <span style="color:#b45309;">3</span>]<br>
     <span style="color:#0e6ead;">b</span> = [<span style="color:#b45309;">1</span>, <span style="color:#b45309;">2</span>, <span style="color:#b45309;">3</span>]<br>
     <span style="color:#0e6ead;">c</span> = <span style="color:#0e6ead;">a</span><br>
@@ -55,26 +55,26 @@ transition: slide-up
   <div v-after style="background:#f7f8fc;border-radius:10px;border:1px solid var(--border);padding:12px 14px;font-size:.72rem;">
     <div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;">
       <div style="text-align:center;">
-        <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:var(--red-dark);">a →</div>
+        <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--red-dark);">a →</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">variable a</div>
       </div>
       <div style="text-align:center;">
-        <div style="background:#f0fff4;border:2px solid var(--green);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:var(--green);">[1,2,3]</div>
+        <div style="background:#f0fff4;border:2px solid var(--green);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--green);">[1,2,3]</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">object @ 0x1A</div>
       </div>
       <div style="font-size:1rem;color:var(--muted);">←</div>
       <div style="text-align:center;">
-        <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:var(--red-dark);">← c</div>
+        <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--red-dark);">← c</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">variable c</div>
       </div>
     </div>
     <div style="margin-top:10px;display:flex;gap:16px;align-items:center;">
       <div style="text-align:center;">
-        <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:#2b6cb0;">b →</div>
+        <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:#2b6cb0;">b →</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">variable b</div>
       </div>
       <div style="text-align:center;">
-        <div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:#2b6cb0;">[1,2,3]</div>
+        <div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:#2b6cb0;">[1,2,3]</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">different object @ 0x2B</div>
       </div>
     </div>

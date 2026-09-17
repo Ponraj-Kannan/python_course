@@ -16,7 +16,7 @@ transition: slide-up
 <div class="flex-col">
 
   <div v-click class="section-label">Syntax Diagram</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:16px 18px;font-family:'Fira Code',monospace;font-size:.78rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:16px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.78rem;line-height:2;">
     <span style="color:#6b7280;"># Initialize variable</span><br>
     <span style="color:#0e6ead;">counter</span> = <span style="color:#b45309;">1</span><br>
     <span style="color:#ef5050;">while</span> <span style="color:#0e6ead;">counter</span> <span style="color:#c49a00;">&lt;=</span> <span style="color:#b45309;">5</span><span style="color:#1a1f36;">:</span><br>

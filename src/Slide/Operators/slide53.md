@@ -41,7 +41,7 @@ transition: slide-up
   <div v-click class="section-label">Binary Visualization: 5 &amp; 3</div>
 
   <div v-after style="background:#f7f8fc;border-radius:10px;border:1px solid var(--border);padding:12px 14px;">
-    <div style="font-family:'Fira Code',monospace;font-size:.72rem;line-height:2;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:2;">
       <div style="display:flex;align-items:center;gap:8px;">
         <span style="color:var(--muted);min-width:14px;">5</span>
         <span style="color:var(--muted);">=&nbsp;</span>
@@ -63,7 +63,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Code Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">a</span>, <span style="color:#0e6ead;">b</span> = <span style="color:#b45309;">5</span>, <span style="color:#b45309;">3</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> &amp; <span style="color:#0e6ead;">b</span>)   <span style="color:#6b7280;"># 1  (AND)</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> | <span style="color:#0e6ead;">b</span>)   <span style="color:#6b7280;"># 7  (OR)</span><br>

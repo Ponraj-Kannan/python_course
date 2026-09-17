@@ -21,7 +21,7 @@ transition: slide-up
     </div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;margin-top:4px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;margin-top:4px;">
     <span style="color:#0e6ead;">colors</span> = {<span style="color:#2d7a00;">"red"</span>, <span style="color:#2d7a00;">"blue"</span>, <span style="color:#2d7a00;">"green"</span>}<br>
     <span style="color:#6b7280;"># Duplicates removed automatically</span><br>
     <span style="color:#0e6ead;">nums</span> = {<span style="color:#b45309;">1</span>, <span style="color:#b45309;">2</span>, <span style="color:#b45309;">2</span>, <span style="color:#b45309;">3</span>, <span style="color:#b45309;">3</span>, <span style="color:#b45309;">4</span>}<br>
@@ -31,7 +31,7 @@ transition: slide-up
 
   <div v-click style="margin-top:4px;">
     <div class="section-label" style="margin-bottom:6px;">Set Operations</div>
-    <div style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+    <div style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
       <span style="color:#0e6ead;">A</span> = {<span style="color:#b45309;">1</span>,<span style="color:#b45309;">2</span>,<span style="color:#b45309;">3</span>} &nbsp;<span style="color:#0e6ead;">B</span> = {<span style="color:#b45309;">3</span>,<span style="color:#b45309;">4</span>,<span style="color:#b45309;">5</span>}<br>
       <span style="color:#0e6ead;">A</span> | <span style="color:#0e6ead;">B</span> <span style="color:#6b7280;"># union: {1,2,3,4,5}</span><br>
       <span style="color:#0e6ead;">A</span> & <span style="color:#0e6ead;">B</span> <span style="color:#6b7280;"># intersection: {3}</span><br>
@@ -45,17 +45,17 @@ transition: slide-up
   <div v-click class="section-label">Set Uniqueness Visualization</div>
 
   <div v-after style="background:#f7f8fc;border-radius:10px;border:1px solid var(--border);padding:14px;">
-    <div style="font-size:.65rem;color:var(--muted);margin-bottom:8px;font-family:'Fira Code',monospace;">Input: {1, 2, 2, 3, 3, 4}</div>
+    <div style="font-size:.65rem;color:var(--muted);margin-bottom:8px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">Input: {1, 2, 2, 3, 3, 4}</div>
     <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:8px;">
-      <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.75rem;font-weight:700;color:#2b6cb0;">1</div>
-      <div style="background:var(--red-soft);border:2px dashed var(--red);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.75rem;font-weight:700;color:var(--red-dark);">2</div>
-      <div style="background:var(--red-soft);border:2px dashed var(--red);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.75rem;font-weight:700;color:var(--red-dark);">2 ✗</div>
-      <div style="background:#f0fff4;border:1px solid var(--green);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.75rem;font-weight:700;color:var(--green);">3</div>
-      <div style="background:var(--red-soft);border:2px dashed var(--red);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.75rem;font-weight:700;color:var(--red-dark);">3 ✗</div>
-      <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-size:.75rem;font-weight:700;color:var(--orange);">4</div>
+      <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;font-weight:700;color:#2b6cb0;">1</div>
+      <div style="background:var(--red-soft);border:2px dashed var(--red);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;font-weight:700;color:var(--red-dark);">2</div>
+      <div style="background:var(--red-soft);border:2px dashed var(--red);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;font-weight:700;color:var(--red-dark);">2 ✗</div>
+      <div style="background:#f0fff4;border:1px solid var(--green);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;font-weight:700;color:var(--green);">3</div>
+      <div style="background:var(--red-soft);border:2px dashed var(--red);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;font-weight:700;color:var(--red-dark);">3 ✗</div>
+      <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:5px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.75rem;font-weight:700;color:var(--orange);">4</div>
     </div>
     <div style="font-size:.7rem;color:var(--muted);">↓</div>
-    <div style="font-size:.65rem;color:var(--muted);margin-top:4px;font-family:'Fira Code',monospace;">Result: {1, 2, 3, 4}  (duplicates removed)</div>
+    <div style="font-size:.65rem;color:var(--muted);margin-top:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">Result: {1, 2, 3, 4}  (duplicates removed)</div>
   </div>
 
   <div style="margin-top:8px;">

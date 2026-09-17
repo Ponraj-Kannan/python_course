@@ -10,7 +10,7 @@
   <div v-click class="card-red" style="border-radius:10px;">
     <div style="font-size:.78rem;font-weight:600;color:var(--red-dark);margin-bottom:6px;">Immutable — Cannot Be Changed</div>
     <div style="font-size:.74rem;color:var(--slate);line-height:1.6;">Once created, a string's characters <strong>cannot be modified</strong> in place. You must create a new string instead.</div>
-    <div style="background:#fff8f8;border-radius:8px;padding:10px 12px;margin-top:8px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+    <div style="background:#fff8f8;border-radius:8px;padding:10px 12px;margin-top:8px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
       <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"hello"</span><br>
       <span style="color:#6b7280;"># s[0] = "H"  ← TypeError! Cannot modify</span><br>
       <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Hello"</span> &nbsp;&nbsp;<span style="color:#6b7280;"># Correct: assign a new string</span>
@@ -20,7 +20,7 @@
   <div v-click class="card-blue" style="border-radius:10px;">
     <div style="font-size:.78rem;font-weight:600;color:var(--blue);margin-bottom:6px;">Ordered Sequence</div>
     <div style="font-size:.74rem;color:var(--slate);line-height:1.6;">Characters in a string maintain a <strong>fixed order</strong>. <span class="mono">"abc"</span> is always <span class="mono">a</span>, then <span class="mono">b</span>, then <span class="mono">c</span> — never shuffled.</div>
-    <div style="background:#ebf8ff;border-radius:8px;padding:10px 12px;margin-top:8px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+    <div style="background:#ebf8ff;border-radius:8px;padding:10px 12px;margin-top:8px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
       <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Python"</span><br>
       <span style="color:#6b7280;"># P is always at position 0</span><br>
       <span style="color:#6b7280;"># n is always at position 5</span>
@@ -34,7 +34,7 @@
   <div v-after class="card-green" style="border-radius:10px;">
     <div style="font-size:.78rem;font-weight:600;color:var(--green);margin-bottom:6px;">Indexing — Every Character Has an Address</div>
     <div style="font-size:.74rem;color:var(--slate);line-height:1.5;margin-bottom:8px;">Python assigns an <strong>index number</strong> to every character. Positive indices go left to right; negative indices go right to left.</div>
-    <div style="background:#f0fff4;border-radius:8px;padding:12px;font-family:'Fira Code',monospace;font-size:.68rem;">
+    <div style="background:#f0fff4;border-radius:8px;padding:12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.68rem;">
       <div style="margin-bottom:6px;color:var(--slate);text-align:center;font-weight:600;">"P y t h o n"</div>
       <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:4px;text-align:center;">
         <div v-click style="background:var(--white);border:1px solid var(--green);border-radius:5px;padding:5px 2px;font-weight:600;color:var(--navy);">P</div>

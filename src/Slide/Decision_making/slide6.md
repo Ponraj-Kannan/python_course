@@ -21,7 +21,7 @@ transition: slide-up
 
   <div v-click class="card" style="border:1px solid var(--green);">
     <div class="slide-h3" style="margin-bottom:8px;">Syntax</div>
-    <div style="font-family:'Fira Code',monospace;font-size:.78rem;line-height:1.9;background:#f7f8fc;padding:8px;border-radius:6px;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.78rem;line-height:1.9;background:#f7f8fc;padding:8px;border-radius:6px;">
       <span style="color:#ff79c6;">if</span> condition:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;...<br>
       <span style="color:green;">elif</span> condition:<br>

@@ -18,7 +18,7 @@ transition: slide-up
   <div v-click style="display:flex;gap:8px;align-items:center;margin-bottom:4px;">
     <span class="pill pill-navy">Multiple Variable Assignment</span>
   </div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#6b7280;"># Assign different values in one line</span><br>
     <span style="color:#0e6ead;">x</span>, <span style="color:#c49a00;">y</span>, <span style="color:#2d7a00;">z</span> <span style="color:#ef5050;">=</span> <span style="color:#b45309;">10</span>, <span style="color:#b45309;">20</span>, <span style="color:#b45309;">30</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">x</span>, <span style="color:#c49a00;">y</span>, <span style="color:#2d7a00;">z</span>) <span style="color:#6b7280;"># 10 20 30</span>
@@ -28,7 +28,7 @@ transition: slide-up
   <div v-click style="display:flex;gap:8px;align-items:center;margin-top:8px;">
     <span class="pill pill-green">Same Value to Multiple Variables</span>
   </div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#6b7280;"># All three get the same value</span><br>
     <span style="color:#0e6ead;">a</span> = <span style="color:#c49a00;">b</span> = <span style="color:#2d7a00;">c</span> = <span style="color:#b45309;">100</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span>, <span style="color:#c49a00;">b</span>, <span style="color:#2d7a00;">c</span>) <span style="color:#6b7280;"># 100 100 100</span>
@@ -42,7 +42,7 @@ transition: slide-up
   <div v-click style="display:flex;gap:8px;align-items:center;margin-bottom:4px;">
     <span class="pill pill-red">Variable Reassignment</span>
   </div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#0e6ead;">score</span> = <span style="color:#b45309;">50</span>   <span style="color:#6b7280;"># first assignment</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">score</span>) <span style="color:#6b7280;"># 50</span><br>
     <span style="color:#0e6ead;">score</span> = <span style="color:#b45309;">95</span>   <span style="color:#6b7280;"># reassignment</span><br>

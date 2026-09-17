@@ -25,7 +25,7 @@ transition: slide-up
     <div><strong>Think of it like this:</strong> In <span class="mono">5 + 3</span>, the <span class="mono" style="color:var(--red);">+</span> is the operator and <span class="mono">5</span>, <span class="mono">3</span> are operands. The result is <span class="mono" style="color:var(--green);">8</span>.</div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#6b7280;"># Operator in action</span><br>
     <span style="color:#0e6ead;">a</span> = <span style="color:#b45309;">10</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#6b7280;"># operand</span><br>
     <span style="color:#0e6ead;">b</span> = <span style="color:#b45309;">3</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#6b7280;"># operand</span><br>

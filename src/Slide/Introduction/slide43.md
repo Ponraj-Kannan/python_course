@@ -21,7 +21,7 @@ transition: slide-up
     </div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;margin-top:4px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;margin-top:4px;">
     <span style="color:#0e6ead;">result</span> = <span style="color:#ef5050;">None</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">result</span>)          <span style="color:#6b7280;"># None</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#ef5050;">type</span>(<span style="color:#0e6ead;">result</span>))    <span style="color:#6b7280;"># &lt;class 'NoneType'&gt;</span><br>
@@ -46,7 +46,7 @@ transition: slide-up
   <div style="display:flex;flex-direction:column;gap:6px;">
     <div v-click class="card" style="padding:10px 14px;">
       <div class="body-text"><strong>Function with no return value</strong></div>
-      <div style="background:#f6f8fa;border-radius:6px;padding:8px;font-family:'Fira Code',monospace;font-size:.7rem;margin-top:6px;line-height:1.8;">
+      <div style="background:#f6f8fa;border-radius:6px;padding:8px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;margin-top:6px;line-height:1.8;">
         <span style="color:#ef5050;">def</span> <span style="color:#2d7a00;">greet</span>():<br>
         <span style="padding-left:16px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Hello"</span>)</span>
         <span style="color:#0e6ead;">x</span> = <span style="color:#2d7a00;">greet</span>() <span style="color:#6b7280;"># x is None</span>
@@ -54,7 +54,7 @@ transition: slide-up
     </div>
     <div v-click class="card" style="padding:10px 14px;">
       <div class="body-text"><strong>Default parameter / placeholder</strong></div>
-      <div style="background:#f6f8fa;border-radius:6px;padding:8px;font-family:'Fira Code',monospace;font-size:.7rem;margin-top:6px;line-height:1.8;">
+      <div style="background:#f6f8fa;border-radius:6px;padding:8px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;margin-top:6px;line-height:1.8;">
         <span style="color:#ef5050;">def</span> <span style="color:#2d7a00;">connect</span>(<span style="color:#0e6ead;">host</span>=<span style="color:#ef5050;">None</span>):<br>
         <span style="padding-left:16px;display:block;"><span style="color:#ef5050;">if</span> <span style="color:#0e6ead;">host</span> <span style="color:#ef5050;">is</span> <span style="color:#ef5050;">None</span>:</span>
         <span style="padding-left:32px;display:block;"><span style="color:#0e6ead;">host</span> = <span style="color:#2d7a00;">"localhost"</span></span>

@@ -25,7 +25,7 @@ transition: slide-up
     </div>
   </div>
 
-  <div v-click style="background:#ffffff;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:1.8;">
+  <div v-click style="background:#ffffff;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:1.8;">
     <span style="color:#ff79c6;">if</span> <span style="color:#61dafb;">x</span> > <span style="color:#ffd166;">0</span>:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ffd166;">pass</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#636e80;">← valid, interpreter sees this</span>
   </div>
@@ -44,7 +44,7 @@ transition: slide-up
     </div>
   </div>
 
-  <div v-click style="background:#ffffff;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:1.8;">
+  <div v-click style="background:#ffffff;border-radius:10px;padding:12px 18px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:1.8;">
     <span style="color:#ff79c6;">if</span> <span style="color:#61dafb;">x</span> > <span style="color:#ffd166;">0</span>:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#636e80;"># comment only → SyntaxError!</span>
   </div>

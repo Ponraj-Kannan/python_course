@@ -15,11 +15,11 @@ transition: slide-up
 
 <div class="flex-col">
   <div v-click style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
-    <span style="background:var(--yellow);color:#fff;border-radius:6px;padding:3px 12px;font-family:'Fira Code',monospace;font-weight:700;font-size:.85rem;">pass</span>
+    <span style="background:var(--yellow);color:#fff;border-radius:6px;padding:3px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;font-size:.85rem;">pass</span>
     <span class="body-text">— Placeholder, does nothing</span>
   </div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">i</span> <span style="color:#ef5050;">in</span> <span style="color:#2d7a00;">range</span>(<span style="color:#b45309;">1</span>, <span style="color:#b45309;">6</span>):<br>
     <span style="padding-left:20px;display:block;"><span style="color:#ef5050;">if</span> <span style="color:#0e6ead;">i</span> == <span style="color:#b45309;">3</span>:</span>
     <span style="padding-left:40px;display:block;"><span style="color:#ef5050;">pass</span> <span style="color:#6b7280;"># nothing here yet</span></span>

@@ -14,7 +14,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Using len()</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#2d7a00;">print</span>(<span style="color:#ef5050;">len</span>(<span style="color:#2d7a00;">"Python"</span>))      <span style="color:#6b7280;"># 6</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#ef5050;">len</span>(<span style="color:#2d7a00;">"Hello World"</span>))  <span style="color:#6b7280;"># 11 (space counts!)</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#ef5050;">len</span>(<span style="color:#2d7a00;">""</span>))            <span style="color:#6b7280;"># 0 (empty string)</span><br><br>
@@ -34,7 +34,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Membership: in / not in</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">sentence</span> = <span style="color:#2d7a00;">"Python is fun to learn"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Python"</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">sentence</span>)     <span style="color:#6b7280;"># True</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Java"</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">sentence</span>)       <span style="color:#6b7280;"># False</span><br>
@@ -43,7 +43,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Practical Use</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Spam word filter</span><br>
     <span style="color:#0e6ead;">message</span> = <span style="color:#2d7a00;">"Claim your free prize now!"</span><br>
     <span style="color:#ef5050;">if</span> <span style="color:#2d7a00;">"free"</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">message</span>:<br>

@@ -19,7 +19,7 @@ transition: slide-up
     <span class="pill pill-red">Deleting a Variable — del</span>
   </div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#0e6ead;">x</span> = <span style="color:#b45309;">10</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">x</span>) <span style="color:#6b7280;"># 10</span><br>
     <span style="color:#ef5050;">del</span> <span style="color:#0e6ead;">x</span>    <span style="color:#6b7280;"># removes the variable</span><br>
@@ -59,7 +59,7 @@ transition: slide-up
     <span class="pill pill-green">Swapping Variables</span>
   </div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#0e6ead;">a</span> = <span style="color:#b45309;">5</span><br>
     <span style="color:#0e6ead;">b</span> = <span style="color:#b45309;">10</span><br>
     <span style="color:#6b7280;"># Python's elegant one-liner swap</span><br>
@@ -73,22 +73,22 @@ transition: slide-up
     <div class="section-label" style="margin-bottom:6px;">Swap Visualization</div>
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
       <div style="text-align:center;">
-        <div style="background:var(--red-soft);border:2px solid var(--red);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-weight:700;color:var(--red-dark);">a = 5</div>
+        <div style="background:var(--red-soft);border:2px solid var(--red);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--red-dark);">a = 5</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">Before</div>
       </div>
       <div style="font-size:1.2rem;color:var(--muted);">⇄</div>
       <div style="text-align:center;">
-        <div style="background:#f0fff4;border:2px solid var(--green);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-weight:700;color:var(--green);">b = 10</div>
+        <div style="background:#f0fff4;border:2px solid var(--green);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--green);">b = 10</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">Before</div>
       </div>
       <div style="color:var(--muted);font-size:1rem;font-weight:700;">→</div>
       <div style="text-align:center;">
-        <div style="background:var(--red-soft);border:2px solid var(--red);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-weight:700;color:var(--red-dark);">a = 10</div>
+        <div style="background:var(--red-soft);border:2px solid var(--red);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--red-dark);">a = 10</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">After</div>
       </div>
       <div style="font-size:1.2rem;color:var(--muted);">⇄</div>
       <div style="text-align:center;">
-        <div style="background:#f0fff4;border:2px solid var(--green);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-weight:700;color:var(--green);">b = 5</div>
+        <div style="background:#f0fff4;border:2px solid var(--green);border-radius:8px;padding:8px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--green);">b = 5</div>
         <div style="font-size:.6rem;color:var(--muted);margin-top:3px;">After</div>
       </div>
     </div>

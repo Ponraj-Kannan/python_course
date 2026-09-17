@@ -14,7 +14,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">String Concatenation ( + )</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">first</span> = <span style="color:#2d7a00;">"Hello"</span><br>
     <span style="color:#0e6ead;">last</span>  = <span style="color:#2d7a00;">"World"</span><br>
     <span style="color:#0e6ead;">result</span> = <span style="color:#0e6ead;">first</span> + <span style="color:#2d7a00;">", "</span> + <span style="color:#0e6ead;">last</span> + <span style="color:#2d7a00;">"!"</span><br>
@@ -34,7 +34,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">String Repetition ( * )</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Ha"</span> * <span style="color:#b45309;">3</span>)      <span style="color:#6b7280;"># HaHaHa</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"-"</span> * <span style="color:#b45309;">20</span>)     <span style="color:#6b7280;"># -------------------- (divider)</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"abc"</span> * <span style="color:#b45309;">0</span>)    <span style="color:#6b7280;"># "" (empty string)</span><br><br>
@@ -45,7 +45,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Augmented Concatenation ( += )</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">sentence</span> = <span style="color:#2d7a00;">"Python"</span><br>
     <span style="color:#0e6ead;">sentence</span> += <span style="color:#2d7a00;">" is"</span><br>
     <span style="color:#0e6ead;">sentence</span> += <span style="color:#2d7a00;">" awesome!"</span><br>

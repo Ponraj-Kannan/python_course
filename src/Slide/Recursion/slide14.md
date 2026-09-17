@@ -67,7 +67,7 @@ transition: slide-up
   <div v-click class="output-box" style="font-size:.72rem;">0  1  1  2  3  5  8</div>
 
   <div v-click class="section-label" style="margin-top:6px;">Fibonacci Recursion Tree</div>
-  <div v-after style="text-align:center;font-family:'Fira Code',monospace;font-size:.64rem;line-height:2; margin-bottom:40px; background:#f7f8fc;border:1px solid var(--border);border-radius:8px;padding:6px;">
+  <div v-after style="text-align:center;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.64rem;line-height:2; margin-bottom:40px; background:#f7f8fc;border:1px solid var(--border);border-radius:8px;padding:6px;">
     <div><span style="color:#2b6cb0;font-weight:700;">fib(4)</span></div>
     <div><span style="color:#2b6cb0;">fib(3)</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color:#2b6cb0;">fib(2)</span></div>
     <div><span style="color:#dd6b20;">fib(2)</span> + <span style="color:#dd6b20;">fib(1)</span> &nbsp;&nbsp; <span style="color:#dd6b20;">fib(1)</span> + <span style="color:#dd6b20;">fib(0)</span></div>

@@ -17,7 +17,7 @@
     <div><strong>Think of it like this:</strong> A string is like a <strong>necklace of beads</strong> — each bead is a character, and the whole necklace is the string.</div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#6b7280;"># All of these are strings</span><br>
     <span style="color:#0e6ead;">name</span>    = <span style="color:#2d7a00;">"Alice"</span><br>
     <span style="color:#0e6ead;">city</span>    = <span style="color:#2d7a00;">'Chennai'</span><br>

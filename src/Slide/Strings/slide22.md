@@ -10,7 +10,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Word Counter</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">text</span> = <span style="color:#2d7a00;">"Python is great. Python is fast!"</span><br>
     <span style="color:#0e6ead;">words</span> = <span style="color:#0e6ead;">text</span>.split()<br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"Words: <span style="color:#ef5050;">{len(words)}</span>"</span>)            <span style="color:#6b7280;"># Words: 6</span><br>
@@ -19,7 +19,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Title Formatter</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Clean and format a blog post title</span><br>
     <span style="color:#0e6ead;">raw</span> = <span style="color:#2d7a00;">"  the ART of python programming  "</span><br>
     <span style="color:#0e6ead;">title</span> = <span style="color:#0e6ead;">raw</span>.strip().title()<br>
@@ -29,7 +29,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">CSV Row Parser</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">row</span>  = <span style="color:#2d7a00;">"Alice,25,Engineer,Chennai"</span><br>
     <span style="color:#0e6ead;">data</span> = <span style="color:#0e6ead;">row</span>.split(<span style="color:#2d7a00;">","</span>)<br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"Name: <span style="color:#ef5050;">{data[0]}</span>"</span>)    <span style="color:#6b7280;"># Alice</span><br>
@@ -42,7 +42,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Receipt Generator</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">items</span>  = [(<span style="color:#2d7a00;">"Apple"</span>, <span style="color:#b45309;">3</span>, <span style="color:#b45309;">20</span>), (<span style="color:#2d7a00;">"Milk"</span>, <span style="color:#b45309;">2</span>, <span style="color:#b45309;">55</span>)]<br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"="</span> * <span style="color:#b45309;">30</span>)<br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"<span style="color:#ef5050;">{'RECEIPT':^30}</span>"</span>)<br>

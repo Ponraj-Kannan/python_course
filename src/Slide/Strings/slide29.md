@@ -10,7 +10,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Indexing &amp; Slicing</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Python"</span><br>
     <span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">0</span>]     <span style="color:#6b7280;"># 'P'   — first char</span><br>
     <span style="color:#0e6ead;">s</span>[<span style="color:#b45309;">-1</span>]    <span style="color:#6b7280;"># 'n'   — last char</span><br>
@@ -19,7 +19,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Operators</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
     <span style="color:#2d7a00;">"Hi"</span> + <span style="color:#2d7a00;">" World"</span>      <span style="color:#6b7280;"># 'Hi World'</span><br>
     <span style="color:#2d7a00;">"ab"</span> * <span style="color:#b45309;">3</span>          <span style="color:#6b7280;"># 'ababab'</span><br>
     <span style="color:#ef5050;">len</span>(<span style="color:#2d7a00;">"hello"</span>)        <span style="color:#6b7280;"># 5</span><br>
@@ -27,7 +27,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Formatting</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
     <span style="color:#0e6ead;">n</span>, <span style="color:#0e6ead;">x</span> = <span style="color:#2d7a00;">"Alice"</span>, <span style="color:#b45309;">3.14</span><br>
     <span style="color:#2d7a00;">f"Hello <span style="color:#ef5050;">{n}</span>, pi=<span style="color:#ef5050;">{x:.2f}</span>"</span>
   </div>
@@ -37,7 +37,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Key Methods Quick Reference</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.69rem;line-height:1.85;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.69rem;line-height:1.85;">
     <span style="color:#2d7a00;">"hi"</span>.upper()            <span style="color:#6b7280;"># 'HI'</span><br>
     <span style="color:#2d7a00;">"HI"</span>.lower()            <span style="color:#6b7280;"># 'hi'</span><br>
     <span style="color:#2d7a00;">"hi there"</span>.title()     <span style="color:#6b7280;"># 'Hi There'</span><br>
@@ -51,7 +51,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Iteration</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.7rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.7rem;line-height:1.9;">
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#2d7a00;">"abc"</span>: <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">ch</span>)<br>
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">i</span>, <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#ef5050;">enumerate</span>(<span style="color:#2d7a00;">"abc"</span>): ...
   </div>

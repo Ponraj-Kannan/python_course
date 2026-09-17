@@ -67,7 +67,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:6px;">How is_even(4) Runs</div>
-  <div v-after style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:.68rem;font-family:'Fira Code',monospace; margin-bottom:40px;">
+  <div v-after style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:.68rem;font-family:'Fira Code',monospace;font-variant-ligatures:none; margin-bottom:40px;">
     <span class="pill pill-blue">is_even(4)</span>
     <span>&#x2192;</span>
     <span class="pill pill-purple">is_odd(3)</span>

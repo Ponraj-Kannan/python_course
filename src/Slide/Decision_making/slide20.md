@@ -15,7 +15,7 @@ transition: fade
 <div class="flex-col" style="gap:10px;">
   <div v-click class="card-navy">
     <div style="font-size:.72rem;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,.5);margin-bottom:6px;">Syntax</div>
-    <div style="font-family:'Fira Code',monospace;font-size:.78rem;line-height:2;margin-top:4px;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.78rem;line-height:2;margin-top:4px;">
       <span style="color:#ffd166;">match</span> <span style="color:#61dafb;">variable</span>:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#a8ff78;">case</span> <span style="color:#f1fa8c;">value_1</span>:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#e2e8f0;">...</span><br>

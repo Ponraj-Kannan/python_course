@@ -35,7 +35,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Code Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Newline and tab</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Line 1\nLine 2"</span>)<br>
     <span style="color:#6b7280;"># Line 1</span><br>
@@ -51,7 +51,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Raw Strings — Ignore Escape</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Prefix r or R to ignore escape sequences</span><br>
     <span style="color:#0e6ead;">path</span> = <span style="color:#2d7a00;">r"C:\Users\Alice\file.txt"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">path</span>)  <span style="color:#6b7280;"># C:\Users\Alice\file.txt</span>

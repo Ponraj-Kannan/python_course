@@ -14,7 +14,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">split() — String → List</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">sentence</span> = <span style="color:#2d7a00;">"Python is fun"</span><br>
     <span style="color:#0e6ead;">words</span> = <span style="color:#0e6ead;">sentence</span>.split()  <span style="color:#6b7280;"># splits on whitespace</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">words</span>)  <span style="color:#6b7280;"># ['Python', 'is', 'fun']</span><br><br>
@@ -32,7 +32,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">join() — List → String</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">words</span> = [<span style="color:#2d7a00;">"Python"</span>, <span style="color:#2d7a00;">"is"</span>, <span style="color:#2d7a00;">"fun"</span>]<br>
     <span style="color:#0e6ead;">result</span> = <span style="color:#2d7a00;">" "</span>.join(<span style="color:#0e6ead;">words</span>)<br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">result</span>)  <span style="color:#6b7280;"># Python is fun</span><br><br>

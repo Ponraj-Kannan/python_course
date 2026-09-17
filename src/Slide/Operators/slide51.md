@@ -23,15 +23,15 @@ transition: slide-up
 
   <div v-click style="display:flex;flex-direction:column;gap:6px;margin-top:4px;">
     <div class="card-green" style="border-radius:8px;padding:10px 14px;">
-      <div style="font-size:.72rem;font-weight:700;color:var(--green);margin-bottom:4px;font-family:'Fira Code',monospace;">and</div>
+      <div style="font-size:.72rem;font-weight:700;color:var(--green);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">and</div>
       <div style="font-size:.72rem;color:var(--slate);">Returns <span class="mono" style="color:var(--green);">True</span> only when <strong>both</strong> conditions are True</div>
     </div>
     <div class="card-blue" style="border-radius:8px;padding:10px 14px;">
-      <div style="font-size:.72rem;font-weight:700;color:var(--blue);margin-bottom:4px;font-family:'Fira Code',monospace;">or</div>
+      <div style="font-size:.72rem;font-weight:700;color:var(--blue);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">or</div>
       <div style="font-size:.72rem;color:var(--slate);">Returns <span class="mono" style="color:var(--green);">True</span> when <strong>at least one</strong> condition is True</div>
     </div>
     <div class="card-red" style="border-radius:8px;padding:10px 14px;">
-      <div style="font-size:.72rem;font-weight:700;color:var(--red-dark);margin-bottom:4px;font-family:'Fira Code',monospace;">not</div>
+      <div style="font-size:.72rem;font-weight:700;color:var(--red-dark);margin-bottom:4px;font-family:'Fira Code',monospace;font-variant-ligatures:none;">not</div>
       <div style="font-size:.72rem;color:var(--slate);"><strong>Reverses</strong> the Boolean value — True becomes False and vice versa</div>
     </div>
   </div>
@@ -54,7 +54,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Code Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">age</span>, <span style="color:#0e6ead;">has_id</span> = <span style="color:#b45309;">20</span>, <span style="color:#ef5050;">True</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">age</span> >= <span style="color:#b45309;">18</span> <span style="color:#ef5050;">and</span> <span style="color:#0e6ead;">has_id</span>)  <span style="color:#6b7280;"># True</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">age</span> < <span style="color:#b45309;">16</span> <span style="color:#ef5050;">or</span> <span style="color:#0e6ead;">has_id</span>)   <span style="color:#6b7280;"># True</span><br>

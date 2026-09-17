@@ -16,7 +16,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Method 1 — % Formatting (Old Style)</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">name</span> = <span style="color:#2d7a00;">"Alice"</span>; <span style="color:#0e6ead;">age</span> = <span style="color:#b45309;">25</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Name: %s, Age: %d"</span> % (<span style="color:#0e6ead;">name</span>, <span style="color:#0e6ead;">age</span>))<br>
     <span style="color:#6b7280;"># Name: Alice, Age: 25</span><br>
@@ -25,7 +25,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Method 2 — format() Method</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Name: {}, Age: {}"</span>.format(<span style="color:#0e6ead;">name</span>, <span style="color:#0e6ead;">age</span>))<br>
     <span style="color:#6b7280;"># Name: Alice, Age: 25</span><br>
     <span style="color:#6b7280;"># With named placeholders</span><br>
@@ -38,7 +38,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Method 3 — f-Strings (Recommended)</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Prefix string with f or F</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"Name: <span style="color:#ef5050;">{name}</span>, Age: <span style="color:#ef5050;">{age}</span>"</span>)<br>
     <span style="color:#6b7280;"># Name: Alice, Age: 25</span><br><br>

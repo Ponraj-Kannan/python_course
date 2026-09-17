@@ -37,7 +37,7 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Code Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">a</span> = <span style="color:#2d7a00;">"hello"</span><br>
     <span style="color:#0e6ead;">b</span> = <span style="color:#2d7a00;">"Hello"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> == <span style="color:#0e6ead;">b</span>)            <span style="color:#6b7280;"># False (case-sensitive)</span><br>
@@ -48,7 +48,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Practical: Login Check</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">stored_pwd</span> = <span style="color:#2d7a00;">"Secure@123"</span><br>
     <span style="color:#0e6ead;">user_pwd</span>   = <span style="color:#ef5050;">input</span>(<span style="color:#2d7a00;">"Enter password: "</span>)<br>
     <span style="color:#ef5050;">if</span> <span style="color:#0e6ead;">user_pwd</span> == <span style="color:#0e6ead;">stored_pwd</span>:<br>

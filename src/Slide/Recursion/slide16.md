@@ -29,7 +29,7 @@ transition: slide-up
   <div v-click class="output-box" style="font-size:.72rem;">120</div>
 
   <div v-click class="section-label" style="margin-top:6px;">Execution: factorial(5)</div>
-  <div v-after style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:.65rem;font-family:'Fira Code',monospace;">
+  <div v-after style="display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-size:.65rem;font-family:'Fira Code',monospace;font-variant-ligatures:none;">
     <span class="pill pill-blue">5 × 4!</span>
     <span>&#x2192;</span>
     <span class="pill pill-blue">4 × 3!</span>
@@ -63,14 +63,14 @@ transition: slide-up
 
   <div v-click class="section-label" style="margin-top:6px;">Fibonacci — Each Term is Sum of Previous Two</div>
   <div v-after style="display:flex;gap:4px;flex-wrap:wrap;align-items:center;">
-    <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:#2b6cb0;">0</div>
-    <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:#2b6cb0;">1</div>
-    <div style="background:#f0fff4;border:1px solid var(--green);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:var(--green);">1</div>
-    <div style="background:#f0fff4;border:1px solid var(--green);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:var(--green);">2</div>
-    <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:var(--orange);">3</div>
-    <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:var(--orange);">5</div>
-    <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:var(--red-dark);">8</div>
-    <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-weight:700;color:var(--red-dark);">13</div>
+    <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:#2b6cb0;">0</div>
+    <div style="background:#ebf8ff;border:1px solid var(--blue);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:#2b6cb0;">1</div>
+    <div style="background:#f0fff4;border:1px solid var(--green);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--green);">1</div>
+    <div style="background:#f0fff4;border:1px solid var(--green);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--green);">2</div>
+    <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--orange);">3</div>
+    <div style="background:#fffaf0;border:1px solid var(--orange);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--orange);">5</div>
+    <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--red-dark);">8</div>
+    <div style="background:var(--red-soft);border:1px solid var(--red);border-radius:6px;padding:4px 10px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:var(--red-dark);">13</div>
   </div>
 </div>
 

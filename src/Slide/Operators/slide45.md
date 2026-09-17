@@ -41,7 +41,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Code Examples</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">a</span>, <span style="color:#0e6ead;">b</span> = <span style="color:#b45309;">10</span>, <span style="color:#b45309;">3</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> + <span style="color:#0e6ead;">b</span>)  <span style="color:#6b7280;"># 13</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> - <span style="color:#0e6ead;">b</span>)  <span style="color:#6b7280;"># 7</span><br>

@@ -23,14 +23,14 @@ transition: slide-up
 <div class="flex-col" style="gap:10px;">
 <div v-click class="card card-red">
     <div class="slide-h3" style="color:var(--red-dark);">❌ Without pass — SyntaxError!</div>
-    <div style="font-family:'Fira Code',monospace;font-size:.74rem;line-height:1.8;background:#fff;padding:8px;border-radius:6px;margin-top:6px;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:1.8;background:#fff;padding:8px;border-radius:6px;margin-top:6px;">
       <span style="color:#ff79c6;">if</span> <span style="color:#61dafb;">x</span> > <span style="color:#ffd166;">0</span>:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ef5050;"># empty block → SyntaxError!</span>
     </div>
   </div>
   <div v-click class="card card-green">
     <div class="slide-h3" style="color:var(--green);">✅ With pass — Valid!</div>
-    <div style="font-family:'Fira Code',monospace;font-size:.74rem;line-height:1.8;background:#fff;padding:8px;border-radius:6px;margin-top:6px;">
+    <div style="font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:1.8;background:#fff;padding:8px;border-radius:6px;margin-top:6px;">
       <span style="color:#ff79c6;">if</span> <span style="color:#61dafb;">x</span> > <span style="color:#ffd166;">0</span>:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ffd166;">pass</span>&nbsp;&nbsp;<span style="color:#636e80;"># placeholder — valid!</span>
     </div>

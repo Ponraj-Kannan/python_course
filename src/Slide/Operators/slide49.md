@@ -44,7 +44,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Code Examples</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">a</span>, <span style="color:#0e6ead;">b</span> = <span style="color:#b45309;">10</span>, <span style="color:#b45309;">7</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> == <span style="color:#0e6ead;">b</span>)  <span style="color:#6b7280;"># False</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">a</span> != <span style="color:#0e6ead;">b</span>)  <span style="color:#6b7280;"># True</span><br>
@@ -54,7 +54,7 @@ transition: slide-up
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Used in Conditions</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;margin-top:4px;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;margin-top:4px;">
     <span style="color:#0e6ead;">age</span> = <span style="color:#b45309;">20</span><br>
     <span style="color:#ef5050;">if</span> <span style="color:#0e6ead;">age</span> >= <span style="color:#b45309;">18</span>:<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">"Adult"</span>)</span>

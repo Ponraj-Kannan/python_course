@@ -21,7 +21,7 @@ transition: slide-up
     </div>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;margin-top:4px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;margin-top:4px;">
     <span style="color:#0e6ead;">coords</span>  = (<span style="color:#b45309;">10.5</span>, <span style="color:#b45309;">20.3</span>)<br>
     <span style="color:#0e6ead;">rgb</span>     = (<span style="color:#b45309;">255</span>, <span style="color:#b45309;">128</span>, <span style="color:#b45309;">0</span>)<br>
     <span style="color:#0e6ead;">single</span>  = (<span style="color:#b45309;">42</span>,)   <span style="color:#6b7280;"># note trailing comma</span><br>
@@ -57,8 +57,8 @@ transition: slide-up
   <div v-click style="margin-top:8px;">
     <div class="section-label" style="margin-bottom:6px;">Tuple Memory Visualization</div>
     <div style="display:flex;gap:3px;align-items:center;">
-      <div style="text-align:center;"><div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:#2b6cb0;font-size:.78rem;">10.5</div><div style="font-size:.55rem;color:var(--muted);">[0] 🔒</div></div>
-      <div style="text-align:center;"><div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-weight:700;color:#2b6cb0;font-size:.78rem;">20.3</div><div style="font-size:.55rem;color:var(--muted);">[1] 🔒</div></div>
+      <div style="text-align:center;"><div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:#2b6cb0;font-size:.78rem;">10.5</div><div style="font-size:.55rem;color:var(--muted);">[0] 🔒</div></div>
+      <div style="text-align:center;"><div style="background:#ebf8ff;border:2px solid var(--blue);border-radius:6px;padding:6px 12px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-weight:700;color:#2b6cb0;font-size:.78rem;">20.3</div><div style="font-size:.55rem;color:var(--muted);">[1] 🔒</div></div>
       <div style="font-size:.68rem;color:var(--red-dark);font-weight:700;margin-left:6px;">immutable</div>
     </div>
   </div>

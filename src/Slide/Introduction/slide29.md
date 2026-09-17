@@ -24,7 +24,7 @@ transition: slide-up
     Stores <strong>real numbers</strong> — numbers with a fractional part. Used for measurements, prices, and scientific values.
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;margin-top:4px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;margin-top:4px;">
     <span style="color:#0e6ead;">price</span>  = <span style="color:#b45309;">99.99</span><br>
     <span style="color:#0e6ead;">pi</span>     = <span style="color:#b45309;">3.14159</span><br>
     <span style="color:#0e6ead;">weight</span> = <span style="color:#b45309;">-4.5</span><br>
@@ -58,7 +58,7 @@ transition: slide-up
     Stores <strong>complex numbers</strong> in the form <span class="mono">a + bj</span>. Used in engineering, physics, and signal processing.
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;margin-top:4px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;margin-top:4px;">
     <span style="color:#0e6ead;">c2</span> = <span style="color:#b45309;">2</span> - <span style="color:#b45309;">1j</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">c1</span>.real)  <span style="color:#6b7280;"># 3.0</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">c1</span>.imag)  <span style="color:#6b7280;"># 4.0</span><br>
@@ -67,7 +67,7 @@ transition: slide-up
 
   <div v-click style="margin-top:6px;">
     <div style="background:#f7f8fc;border-radius:8px;padding:10px 14px;border:1px solid var(--border);font-size:.72rem;">
-      <div style="display:flex;gap:8px;align-items:center;font-family:'Fira Code',monospace;">
+      <div style="display:flex;gap:8px;align-items:center;font-family:'Fira Code',monospace;font-variant-ligatures:none;">
         <span style="background:var(--red-soft);color:var(--red-dark);border-radius:6px;padding:4px 12px;font-weight:700;">3</span>
         <span style="color:var(--muted);">+</span>
         <span style="background:#ebf8ff;color:#2b6cb0;border-radius:6px;padding:4px 12px;font-weight:700;">4j</span>

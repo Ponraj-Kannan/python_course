@@ -45,7 +45,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Precedence in Action</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#6b7280;"># Without parentheses</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#b45309;">2</span> + <span style="color:#b45309;">3</span> * <span style="color:#b45309;">4</span>)     <span style="color:#6b7280;"># 14  (* before +)</span><br>
     <span style="color:#6b7280;"># With parentheses</span><br>

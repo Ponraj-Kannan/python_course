@@ -17,7 +17,7 @@ transition: slide-up
 
   <div v-click class="section-label">Syntax Structure</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:16px;font-family:'Fira Code',monospace;font-size:.85rem;line-height:2.2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:16px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.85rem;line-height:2.2;">
     <span style="color:#0e6ead;">variable_name</span> <span style="color:#c49a00;">=</span> <span style="color:#2d7a00;">value</span>
   </div>
 
@@ -56,7 +56,7 @@ transition: slide-up
 <div class="flex-col">
   <div v-click class="section-label">Examples</div>
 
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-size:.74rem;line-height:2;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.74rem;line-height:2;">
     <span style="color:#6b7280;"># Integer</span><br>
     <span style="color:#0e6ead;">age</span> <span style="color:#c49a00;">=</span> <span style="color:#b45309;">25</span><br>
     <span style="color:#6b7280;"># Float</span><br>
