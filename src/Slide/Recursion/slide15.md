@@ -55,13 +55,13 @@ transition: slide-up
     <span style="padding-left:20px;display:block;"><span style="color:#0e6ead;">result</span> = <span style="color:#0e6ead;">n</span> * <span style="color:#0e6ead;">factorial</span>(<span style="color:#0e6ead;">n</span>-<span style="color:#b45309;">1</span>)</span>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"Returning: {<span style="color:#0e6ead;">result</span>} for n={<span style="color:#0e6ead;">n</span>}"</span>)</span>
     <span style="padding-left:20px;display:block;"><span style="color:#ef5050;">return</span> <span style="color:#0e6ead;">result</span></span>
+    <span style="color:#0e6ead;">factorial</span>(<span style="color:#0e6ead;">3</span>):<br>
   </div>
 
   <div v-click class="output-box" style="font-size:.68rem;line-height:1.8;">
     Called: factorial(3)<br>
     Called: factorial(2)<br>
     Called: factorial(1)<br>
-    Returning: 1 for n=1<br>
     Returning: 2 for n=2<br>
     Returning: 6 for n=3
   </div>
