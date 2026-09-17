@@ -16,8 +16,8 @@
   <circle cx="80" cy="65" r="55" fill="rgba(239,80,80,0.45)" stroke="#c73c3c" stroke-width="2"/>
   <circle cx="140" cy="65" r="55" fill="#ffffff" stroke="#2b6cb0" stroke-width="2"/>
   <path d="M 110 18 A 55 55 0 0 1 110 112 A 55 55 0 0 1 110 18 Z" fill="#ffffff" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="55" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700">A</text>
-  <text x="165" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700">B</text>
+  <text x="55" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700" font-feature-settings="'liga' 0">A</text>
+  <text x="165" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700" font-feature-settings="'liga' 0">B</text>
 </svg>
 </div>
 
@@ -40,8 +40,8 @@
   <circle cx="80" cy="65" r="55" fill="rgba(221,107,32,0.45)" stroke="#c05621" stroke-width="2"/>
   <circle cx="140" cy="65" r="55" fill="rgba(221,107,32,0.45)" stroke="#c05621" stroke-width="2"/>
   <path d="M 110 18 A 55 55 0 0 1 110 112 A 55 55 0 0 1 110 18 Z" fill="#ffffff" stroke="#c05621" stroke-width="2"/>
-<text x="55" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700">A</text>
-  <text x="165" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700">B</text>
+<text x="55" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700" font-feature-settings="'liga' 0">A</text>
+  <text x="165" y="80" font-size="10" text-anchor="middle" font-family="'Fira Code',monospace" fill="#1a1f36d0" font-weight="700" font-feature-settings="'liga' 0">B</text>
 </svg>
 </div>
 

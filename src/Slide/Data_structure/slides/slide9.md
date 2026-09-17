@@ -23,7 +23,7 @@
 </div>
 
 <div class="flex-col">
-  <div v-click class="section-label">Visual: n[1:4]</div>
+  <div v-click style="font-size:.6rem; font-weight:520; letter-spacing: 1px; color:var(--red);margin-bottom:10px">VISUAL: n[1:4]</div>
 
   <div v-after style="background:#f7f8fc;padding:10px;border-radius:10px;border:1px solid var(--border);">
     <div style="display:flex;gap:4px;align-items:flex-start;justify-content:center;">
