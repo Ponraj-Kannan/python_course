@@ -16,7 +16,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">for Loop — Character by Character</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Python"</span><br>
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">s</span>:<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">ch</span>, end=<span style="color:#2d7a00;">" "</span>)</span>
@@ -24,7 +24,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">for Loop with enumerate()</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">i</span>, <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#ef5050;">enumerate</span>(<span style="color:#2d7a00;">"hi!"</span>):<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"[<span style="color:#ef5050;">{i}</span>] = <span style="color:#ef5050;">{ch}</span>"</span>)</span>
     <span style="color:#6b7280;"># [0] = h</span><br>
@@ -33,7 +33,7 @@
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">while Loop — Index-Based</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"abc"</span>; <span style="color:#0e6ead;">i</span> = <span style="color:#b45309;">0</span><br>
     <span style="color:#ef5050;">while</span> <span style="color:#0e6ead;">i</span> < <span style="color:#ef5050;">len</span>(<span style="color:#0e6ead;">s</span>):<br>
     <span style="padding-left:20px;display:block;"><span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>[<span style="color:#0e6ead;">i</span>])</span>
@@ -46,18 +46,18 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Practical: Count Vowels</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">sentence</span> = <span style="color:#2d7a00;">"Hello Python World"</span><br>
     <span style="color:#0e6ead;">vowels</span>   = <span style="color:#2d7a00;">"aeiouAEIOU"</span><br>
     <span style="color:#0e6ead;">count</span>    = <span style="color:#b45309;">0</span><br>
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">sentence</span>:<br>
     <span style="padding-left:20px;display:block;"><span style="color:#ef5050;">if</span> <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">vowels</span>:</span>
     <span style="padding-left:40px;display:block;"><span style="color:#0e6ead;">count</span> += <span style="color:#b45309;">1</span></span>
-    <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"Vowels: <span style="color:#ef5050;">{count}</span>"</span>)  <span style="color:#6b7280;"># Vowels: 5</span>
+    <span style="color:#2d7a00;">print</span>(<span style="color:#2d7a00;">f"Vowels: <span style="color:#ef5050;">{count}</span>"</span>)  <span style="color:#6b7280;"># Vowels: 4</span>
   </div>
 
   <div v-click class="section-label" style="margin-top:8px;">Practical: Reverse Using Loop</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"Python"</span>; <span style="color:#0e6ead;">rev</span> = <span style="color:#2d7a00;">""</span><br>
     <span style="color:#ef5050;">for</span> <span style="color:#0e6ead;">ch</span> <span style="color:#ef5050;">in</span> <span style="color:#0e6ead;">s</span>:<br>
     <span style="padding-left:20px;display:block;"><span style="color:#0e6ead;">rev</span> = <span style="color:#0e6ead;">ch</span> + <span style="color:#0e6ead;">rev</span></span>

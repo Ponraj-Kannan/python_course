@@ -31,16 +31,16 @@
 <div class="flex-col">
 
   <div v-click class="section-label">Code Examples</div>
-  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;">
+  <div v-after style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:12px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;">
     <span style="color:#0e6ead;">s</span> = <span style="color:#2d7a00;">"banana is a tasty banana"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.replace(<span style="color:#2d7a00;">"banana"</span>, <span style="color:#2d7a00;">"mango"</span>))<br>
     <span style="color:#6b7280;"># mango is a tasty mango</span><br><br>
-    <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.find(<span style="color:#2d7a00;">"tasty"</span>))  <span style="color:#6b7280;"># 13</span><br>
+    <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.find(<span style="color:#2d7a00;">"tasty"</span>))  <span style="color:#6b7280;"># 12</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.find(<span style="color:#2d7a00;">"grape"</span>))  <span style="color:#6b7280;"># -1 (not found)</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">s</span>.count(<span style="color:#2d7a00;">"banana"</span>)) <span style="color:#6b7280;"># 2</span>
   </div>
 
-  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-size:.72rem;line-height:1.9;margin-top:6px;">
+  <div v-click style="background:#f6f8fa;border-radius:10px;border:1px solid #e1e4e8;padding:10px 14px;font-family:'Fira Code',monospace;font-variant-ligatures:none;font-size:.72rem;line-height:1.9;margin-top:6px;">
     <span style="color:#6b7280;"># File type detection</span><br>
     <span style="color:#0e6ead;">filename</span> = <span style="color:#2d7a00;">"report.pdf"</span><br>
     <span style="color:#2d7a00;">print</span>(<span style="color:#0e6ead;">filename</span>.endswith(<span style="color:#2d7a00;">".pdf"</span>))   <span style="color:#6b7280;"># True</span><br>
