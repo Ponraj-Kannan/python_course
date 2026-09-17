@@ -184,6 +184,7 @@
   background: #f6f8fa;
   color: #2d7a00;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   font-size: 0.78rem;
   border-radius: var(--radius);
   padding: 14px 18px;
@@ -206,6 +207,7 @@
   border: 1px solid #e1e4e8;
   padding: 14px 16px;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   font-size: 0.72rem;
   line-height: 1.9;
 }
@@ -282,6 +284,7 @@
   gap: 8px;
   flex-wrap: wrap;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   font-size: 0.8rem;
 }
 
@@ -440,6 +443,7 @@
 
 .mono {
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
 }
 
 /* ── Callout ─────────────────────────────────────────────── */
@@ -478,6 +482,7 @@
   border-collapse: collapse;
   font-size: 0.72rem;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
 }
 
 .trace-table th {
@@ -566,6 +571,7 @@
   border-radius: 6px;
   padding: 8px 14px;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   font-weight: 600;
   color: var(--navy);
   text-align: center;
@@ -584,6 +590,7 @@
   text-align: center;
   margin-top: 2px;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
 }
 
 /* ── Difficulty badges ───────────────────────────────────── */
@@ -643,6 +650,7 @@
 
 .tc-value {
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   color: var(--navy);
 }
 
@@ -661,6 +669,7 @@
   border-radius: 8px;
   padding: 8px 12px;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   font-size: 0.7rem;
 }
 
@@ -693,6 +702,7 @@
   border: 1px solid var(--border);
   border-radius: 8px;
   font-family: 'Fira Code', monospace;
+  font-variant-ligatures: none;
   font-size: 0.72rem;
 }
 
